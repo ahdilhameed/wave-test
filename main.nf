@@ -1,6 +1,6 @@
 process foo {
 
-    container 'us-west2-docker.pkg.dev/skilful-berm-442205-s2/example/nextflow/examples:latest'
+    container 'us-west2-docker.pkg.dev/artifact-test-443723/artifact-test/nextflow/examples:latest'
     debug true
 
     script:
