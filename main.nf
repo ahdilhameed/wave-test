@@ -1,6 +1,6 @@
 process foo {
 
-    container 'us-west2-docker.pkg.dev/artifact-test-443723/artifact-test/nextflow/examples:latest'
+    container 'us-west2-docker.pkg.dev/artifact2/artifact2/nextflow/examples:latest'
     debug true
 
     script:
