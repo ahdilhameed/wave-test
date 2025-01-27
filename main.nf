@@ -5,6 +5,7 @@ process foo {
 
     script:
     """
+    echo 'running test for nf tests'
     cat /etc/os-release
     """
 }
