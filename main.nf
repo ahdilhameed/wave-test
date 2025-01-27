@@ -1,11 +1,11 @@
 process foo {
 
-    container 'us-west2-docker.pkg.dev/artifact2/artifact2/nextflow/examples:latest'
+    container 'us-west1-docker.pkg.dev/first-artifact/first-artifact/nextflow/examples:latest'
     debug true
 
     script:
     """
-    echo 'Hello, World!'
+    cat /etc/os-release
     """
 }
 
