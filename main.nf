@@ -1,15 +1,17 @@
-process foo {
+nextflow.enable.dsl=2
 
-    container 'us-west1-docker.pkg.dev/second-artifact/second-artifact/nextflow/tests:latest'
-    debug true
+process HELLO {
+  container 'alpine:latest'
+  
+  output:
+  stdout
 
-    script:
-    """
-    echo 'running test for nf tests'
-    cat /etc/os-release
-    """
+  script:
+  """
+  echo 'Hello from Alpine!'
+  """
 }
 
 workflow {
-    foo()
+  HELLO()
 }
