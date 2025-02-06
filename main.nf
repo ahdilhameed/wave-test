@@ -1,7 +1,7 @@
 nextflow.enable.dsl=2
 
 process HELLO {
-  container 'alpine:latest'
+  container 'ubuntu:latest'
   
   output:
   stdout
