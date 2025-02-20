@@ -1,6 +1,6 @@
 process foo {
 
-    container 'us-west2-docker.pkg.dev/second-artifact/second-artifact-us-west2/ubuntu:latest'
+    container 'us-west2-docker.pkg.dev/second-artifact/second-artifact-us-west2/debian:latest'
     debug true
 
     script:
