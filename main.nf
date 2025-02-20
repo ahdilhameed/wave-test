@@ -5,7 +5,7 @@ process foo {
 
     script:
     """
-    echo 'running test for alpine'
+    echo 'running test for second-artifact'
     cat /etc/os-release
     """
 }
